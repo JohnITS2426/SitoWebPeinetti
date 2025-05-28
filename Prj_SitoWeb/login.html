@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container" id="loginBox">
+        <h2>Login</h2>
+        <form id="loginForm" autocomplete="off">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Accedi</button>
+        </form>
+        <div class="message" id="loginMsg" style="display:none;">Accesso non riuscito.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
